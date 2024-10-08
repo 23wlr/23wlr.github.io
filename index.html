@@ -51,7 +51,7 @@
         }
         .showcase {
             min-height: 400px;
-            background: url('showcase.jpg') no-repeat 0 -400px;
+            background: url('showcase.jpg') no-repeat center center/cover;
             text-align: center;
             color: #fff;
         }
@@ -73,6 +73,26 @@
         }
         .bio p {
             text-align: justify;
+        }
+        .skills {
+            background: #333;
+            color: #fff;
+            padding: 20px;
+            margin-top: 20px;
+        }
+        .skills h2 {
+            text-align: center;
+        }
+        .skills ul {
+            list-style: none;
+            padding: 0;
+        }
+        .skills li {
+            padding: 10px;
+            border-bottom: 1px #fff dotted;
+        }
+        .skills li:last-child {
+            border-bottom: none;
         }
         footer {
             background: #333;
@@ -108,12 +128,11 @@
 
     <section id="about" class="bio container">
         <h2>關於我</h2>
-        <p>你好，我是23wlr，一名[學生]。我擁有[足球冠軍]，並且球齡[9]有多年的經驗。我熱愛學習新技術並應用於實際項目中。</p>
+        <p>你好，我是23wlr，一名學生。我擁有足球冠軍，並且球齡9年有多年的經驗。我熱愛學習新技術並應用於實際項目中。</p>
     </section>
 
-    <section id="skills" class="bio container">
+    <section id="skills" class="skills container">
         <h2>技能</h2>
-        <p>我擅長以下技能：</p>
         <ul>
             <li>牛尾巴</li>
             <li>馬賽迴旋</li>
@@ -125,7 +144,7 @@
     <section id="contact" class="bio container">
         <h2>聯絡我</h2>
         <p>如果你對我的工作感興趣，請隨時聯絡我：</p>
-        <p>Email: <a href="mailto:your.email@example.com">c112156138@example.com</a></p>
+        <p>Email: <a href="mailto:c112156138@example.com">c112156138@example.com</a></p>
     </section>
 
     <footer>
