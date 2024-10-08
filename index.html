@@ -6,7 +6,7 @@
     <title>個人簡介</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             line-height: 1.6;
             margin: 0;
             padding: 0;
@@ -63,25 +63,22 @@
         .showcase p {
             font-size: 20px;
         }
-        .bio {
+        .bio, .skills, .contact {
             padding: 20px;
             background: #fff;
             margin-top: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
-        .bio h2 {
+        .bio h2, .skills h2, .contact h2 {
             text-align: center;
+            color: #333;
         }
-        .bio p {
+        .bio p, .contact p {
             text-align: justify;
         }
         .skills {
             background: #333;
             color: #fff;
-            padding: 20px;
-            margin-top: 20px;
-        }
-        .skills h2 {
-            text-align: center;
         }
         .skills ul {
             list-style: none;
@@ -141,7 +138,7 @@
         </ul>
     </section>
 
-    <section id="contact" class="bio container">
+    <section id="contact" class="contact container">
         <h2>聯絡我</h2>
         <p>如果你對我的工作感興趣，請隨時聯絡我：</p>
         <p>Email: <a href="mailto:c112156138@example.com">c112156138@example.com</a></p>
