@@ -98,6 +98,17 @@
         .skills li:last-child {
             border-bottom: none;
         }
+        .profile-pic {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        .profile-pic img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+        }
         footer {
             background: #333;
             color: #fff;
@@ -132,7 +143,11 @@
 
     <section id="about" class="bio container">
         <h2>關於我</h2>
+        <div class="profile-pic">
+            <img src="profile.jpg" alt="大頭貼">
+        </div>
         <p>你好，我是23wlr，一名學生。我擁有足球冠軍，並且球齡9年有多年的經驗。我熱愛學習新技術並應用於實際項目中。</p>
+        <p>年齡: 20</p>
     </section>
 
     <section id="skills" class="skills container">
